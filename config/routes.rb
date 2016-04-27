@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resource :contacts
+  resources :contacts
   get '/about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
